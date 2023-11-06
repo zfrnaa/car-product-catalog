@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a leading car sales website in Malaysia, offering a wide range of new and used cars from all major makes and models. We also offer a variety of financing options and trade-ins.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="guide.css">
     <script src="script.js" defer></script>
@@ -13,29 +14,229 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="" alt="logo rann auto">
+                <img src="rann-auto.svg" alt="logo rann auto">
             </div>
-            <div class="search-bar__container">
-                <div class="search-bar__items">
-                    <h4>Search Your Model Preference</h4>
-                    <img src="" alt="search icon">
+            <div class="searchntext-head__container">
+                <div class="text-nav">
+                    <a href="#"><h3>HOME</h3></a>
+                    <a href="explore.html"><h3>EXPLORE</h3></a>
+                    <a href="promotion.html"><h3>PROMOTION</h3></a>
+                </div>
+                <div class="search-bar__items button">
+                    <input type="text" placeholder="Search Your Model Preference" id="search-input">
+                    <button><img src="img/Search.svg" alt="search icon"></button>
                 </div>
             </div>
-            <div class="cta-button">
-                <button type="button"></button>
-            </div>
-            <div class="text-nav">
-                <h3></h3>
+            <div class="container__cta-button">
+                <button id="log-inBtn" class="log-in" type="button" >LOG IN</button>
+                <div id="logIn-popup" class="container__logIn-popup">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Login</h2>
+                        <hr>
+                        <!-- Login form -->
+                        <form>
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" placeholder="Your Username or Email">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" placeholder="Your Password">
+                            <button type="submit">Login</button>
+                        </form>
+
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-    <section class="car-brand-choice">
-        <div class="container__car-brand">
-            <div class="flex__car-brand">
-                <img src="" alt="">
-                <h4></h4>
+    <section class="intro-rann-auto">
+        <div class="container__intro">
+            <div class="grid__intro">
+                <div class="img-intro">
+                    <img src="img/family-1.jpg" alt="family-smile">
+                </div>
+                <div class="text-intro">
+                    <h2 class="animate__animated animate__pulse">Dreaming To Own Your First Car?</h2>
+                    <p>Your journey to own your car begin here.</p>
+                    <button type="button" value="Learn More" class="btn-learnmore">Learn More</button>
+                </div>
             </div>
         </div>
     </section>
+    <section class="car-brand-choice">
+        <div class="container__car-brand">
+            <div class="outerlayer-car-brand">
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/HondaLogo.svg" alt="carbrand1">
+                        <h4>HONDA</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/NissanLogo.svg" alt="carbrand2">
+                        <h4>NISSAN</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/ProtonLogo.svg" alt="carbrand9">
+                        <h4>PROTON</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/PeroduaLogo.svg" alt="carbrand10">
+                        <h4>PERODUA</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/ToyotaLogo.svg" alt="carbrand5">
+                        <h4>TOYOTA</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/LexusLogo.svg" alt="carbrand3">
+                        <h4>LEXUS</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/MazdaLogo.svg" alt="carbrand6">
+                        <h4>MAZDA</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/KiaLogo.svg" alt="carbrand7">
+                        <h4>KIA</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/PorscheLogo.svg" alt="carbrand4">
+                        <h4>PORSCHE</h4>
+                    </a>
+                </div>
+                <div class="flex__car-brand childrenA">
+                    <a href="">
+                        <img src="img/MercedesLogo.svg" alt="carbrand8">
+                        <h4>MERCEDES</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container__main-selection">
+            <div class="selection-item">
+                <img src="img/browse-car.jpg" alt="listing-car">
+                <div class="title-selection">
+                    <h3>Browse Car Listing</h3>
+                </div>
+                <div class="selection-description">
+                    <p>Browse your interested car here.</p>
+                </div>
+                <a href="listing.html"><button class="btnmain-selection">Browse Car</button></a>
+            </div>
+            <div class="selection-item">
+                <img src="img/easy-own.jpg" alt="easy own program">
+                <div class="title-selection">
+                    <h3>Easy Own</h3>
+                </div>
+                <div class="selection-description">
+                    <p>A program to help people to own their car without breaking their bank much.</p>
+                </div>
+                <a href="easyown.html"><button class="btnmain-selection">Read More</button></a>
+            </div>
+            <div class="selection-item">
+                <img src="img/services.jpg" alt="services offer">
+                <div class="title-selection">
+                    <h3>Services</h3>
+                </div>
+                <div class="selection-description">
+                    <p>Introducing to you the services we offer.</p>
+                </div>
+                <a href="services.html"><button class="btnmain-selection">Our Offer</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="main-highlight">
+        <div class="container__highlight">
+            <a href="#">
+                <img src="img/carhighlight/nissan-gtr.jpg" alt="highlight 1">
+            </a>
+            <a href="#">
+                <img src="img/carhighlight/toyota-corolla-crossgr.jpg" alt="highlight 2">
+            </a>
+            <a href="#">
+                <img src="" alt="highlight 1">
+            </a>
+            <a href="#">
+                <img src="" alt="highlight 1">
+            </a>
+            <a href="#">
+                <img src="" alt="highlight 1">
+            </a>
+            <a href="#">
+                <img src="" alt="highlight 1">
+            </a>
+            <div class="btn-slide">
+                <button class="previous-slide" id="prev-slide"><</button>
+                <button class="next-slide" id="next-slide">></button>
+            </div>
+            <div class="container__slidenumber">
+                <button class="dot-carousel default-slide" id="slide-number"></button>
+                <button class="dot-carousel" id="slide-number"></button>
+                <button class="dot-carousel" id="slide-number"></button>
+                <button class="dot-carousel" id="slide-number"></button>
+                <button class="dot-carousel" id="slide-number"></button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-main">
+        <div class="container__footer">
+            <div class="footer-item1">
+                <div class="footer-categoryitem">
+                    <h3>ABOUT US</h3>
+                </div>
+                <a href="index.html">Home</a>
+                <a href="#background.html">Background</a>
+                <a href="#cars.html">Cars</a>
+                <a href="#team.html">Team</a>
+            </div>
+            <div class="footer-item2">
+                <div class="footer-categoryitem">
+                    <h3>COMPANY</h3>
+                </div>
+                <a href="#values.html">Values</a>
+                <a href="#career.html">Work With Us</a>
+                <a href="blog.html">Blog</a>
+                <a href="#contact.html">Contact</a>
+            </div>
+            <div class="footer-item3">
+                <div class="footer-categoryitem">
+                    <h3>SUPPORT</h3>
+                </div>
+                <a href="support.html">Support center</a>
+                <a href="#feedback.html">Feedback and Suggestion</a>
+            </div>
+            <div class="footer-item4">
+                <div class="footer-categoryitem">
+                    <h3>NEWSLETTER</h3>
+                </div>
+                <label for="emailinput">
+                    <input type="text" placeholder="Write your email" class="input-email"></input>
+                </label>
+                <button type="submit" class="subscribe-button">Subscibe</button>
+            </div>
+        </div>
+        <div class="copyright-author">
+            <a href="https://www.linkedin.com/in/zafrantajudin" target="_blank">
+                <p>@ranngrafik</p>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

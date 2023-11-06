@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Rann Auto Listing</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="guide.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="rann-auto.svg" alt="logo rann auto">
+            </div>
+            <div class="searchntext-head__container">
+                <div class="text-nav">
+                    <a href="index.html"><h3>HOME</h3></a>
+                    <a href="explore.html"><h3>EXPLORE</h3></a>
+                    <a href="promotion.html"><h3>PROMOTION</h3></a>
+                </div>
+            </div>
+            <div class="container__cta-button">
+                <button id="log-inBtn" class="log-in" type="button" >LOG IN</button>
+                <div id="logIn-popup" class="container__logIn-popup">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Login</h2>
+                        <hr>
+                        <!-- Login form -->
+                        <form>
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" placeholder="Your Username or Email">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" placeholder="Your Password">
+                            <button type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="scrolling-headline">
+        <div class="text-rightleft">
+            <p>20% off if you buy with us during the current Car Festival!</p>
+        </div>
+    </div>
+<section class="sec-list1">
+    <div class="container__header-catalogue2">
+        <div class="header-catalogue">
+            <h1>Car Catalogue</h1>
+            <p>Explore the car that you interested!</p>
+        </div>
+        <div class="search-bar__items button search-barL">
+            <input type="text" placeholder="Search Your Model Preference" id="search-input">
+            <button><img src="img/Search.svg" alt="search icon"></button>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container__introlisting">
+        <div class="background-mainintrolist1">
+            <div class="text-container">
+                <h2>Find Your <strong>Suitable Car</strong></h2>
+                <div class="underline"></div>
+                <p>Everything inspected. Safe to ride assured.</p><p>Search your desired car here!</p>
+            </div>
+        </div>
+        <div class="background-mainintrolist2">
+        </div>
+        <img src="img/porsche-cayenne-2023.png" alt="main img Listing">
+    </div>
+</section>
+<section>
+    <div class="card-mainintro">
+        <div class="container-card_intro">
+            <div class="container-select">
+                <div class="energy-option option">
+                    <label for="Select Energy">Type of Energy
+                        <select class="selection-option">
+                            <option value="" class="placeholder-option" aria-placeholder="Car Brand" selected>Energy Used</option>
+                            <option value="energy-option">Diesel</option>
+                            <option value="energy-option">Electric</option>
+                            <option value="energy-option">Hydrogen</option>
+                            <option value="energy-option">Petrol</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="brand-option option">
+                    <label for="Select Brand">Brand
+                        <select class="selection-option">
+                            <option value="" class="placeholder-option" aria-placeholder="Car Brand" selected>Car Brand</option>
+                            <option value="Brand">Honda</option>
+                            <option value="Brand">Kia</option>
+                            <option value="Brand">Lexus</option>
+                            <option value="Brand">Mazda</option>
+                            <option value="Brand">Mercedes-Benz</option>
+                            <option value="Brand">Nissan</option>
+                            <option value="Brand">Perodua</option>
+                            <option value="Brand">Proton</option>
+                            <option value="Brand">Porsche</option>
+                            <option value="Brand">Toyota</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="year-option option">
+                    <label for="Select Year">Year
+                        <select class="selection-option">
+                            <option value="" class="placeholder-option" aria-placeholder="Car Brand" selected>Released</option>
+                            <option value="Year Car">2023</option>
+                            <option value="Year">2022</option>
+                            <option value="Year Car">2021</option>
+                            <option value="Year Car">2020</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="condition-option option">
+                    <label for="Select Condition">Condition
+                        <select class="selection-option">
+                            <option value="" class="placeholder-option" aria-placeholder="Car Brand" selected>Car Condition</option>
+                            <option value="Condition">New</option>
+                            <option value="Condition">Like New</option>
+                            <option value="Condition">Used</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="mileage-option option">
+                    <label for="Select Mileage">Mileage
+                        <select class="selection-option">
+                            <option value="" class="placeholder-option" aria-placeholder="Car Brand" selected>KM Used</option>
+                            <option value="Condition">0-3000</option>
+                            <option value="Condition">3001-5000</option>
+                            <option value="Condition">5001-7000</option>
+                            <option value="Condition">7001-9000</option>
+                            <option value="Condition">>90000</option>
+                        </select>
+                    </label>
+                </div>
+                <button value="Search" class="search-car">Search</button>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="reason-buy">
+    <div class="heading-reason">
+        <h1>Why <strong class="str-buy">Buy</strong> With Us?</h1>
+    </div>
+    <div class="spacetemp"></div>
+    <div class="reasons">
+        <div class="reason-1">
+            <img src="img/verified.svg" alt="verified user">
+            <h2>Popular used car brands</h2>
+            <p>Selected brands that people used in Malaysia</p>
+        </div>
+        <div class="reason-2">
+            <img src="img/trusted.svg" alt="trusted">
+            <h2>Trusted & quality assurance</h2>
+            <p>Established for 5 years and achieved Best Car Seller Awards</p>
+        </div>
+        <div class="reason-3">
+            <img src="img/finance.svg" alt="Financialp">
+            <h2>Financial program</h2>
+            <p>Provide a few range to buy a car</p>
+        </div>
+    </div>
+</div>
+<section>
+    <div class="spacetemp"></div>
+    <div class="main-listing">
+        <div class="filtersearch-car">
+            <div class="mileage-option option">
+                <label for="Select Mileage">Type of Car
+                    <select class="selection-option">
+                        <option value="" class="placeholder-option" aria-placeholder="Type" selected>Type</option>
+                        <option value="Condition">SUV</option>
+                        <option value="Condition">MPV</option>
+                        <option value="Condition">4X4</option>
+                        <option value="Condition">Sedan</option>
+                        <option value="Condition">Sport</option>
+                    </select>
+                </label>
+            </div>
+            <div class="features-option">
+                <h2>Features</h2>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    GPS
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Android Player
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Heated seat & Massage
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Leather seats
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Automatic Braking Systems
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Blind Spot Monitor
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Wide Driving Mode
+                </label>
+            </div>
+            <div class="seater-option">
+                <h2>Seater</h2>
+                <input type="range" min="0" max="7" value="4" class="rating-range" step="1"/>
+                <br><div class="range-number"><span class="range-start">0</span><span class="range-end">7</span></div>
+            </div>
+            <div class="seater-option">
+                <h2>Boot Size</h2>
+                <input type="range" min="300" max="1000" value="4" class="rating-range" step="100"/>
+                <br><div class="range-number"><span class="range-start">300</span><span class="range-end">1000L</span></div>
+            </div>
+            <div class="seater-option">
+                <h2>Price</h2>
+                <input type="range" min="12000" max="500000" value="12000" class="rating-range" step="1000"/>
+                <br><div class="range-number"><span class="range-start">12000</span><span class="range-end">500000</span></div>
+            </div>
+            <div class="rating-option">
+                <h2>Rating</h2>
+                <input type="range" min="0" max="5" value="3" class="rating-range" step="1"/>
+                <br><div class="range-number"><span class="range-start">0</span><span class="range-end">5</span></div>
+            </div>
+        </div>
+        <div class="flex-listingcar">
+            <div class="flex-carcard">
+                <img src="img/car-listings/proton-saga.png" alt="car1">
+                <h3>Proton Saga</h3>
+                <p>Good choice for people who does not want to commit much on a car</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/perodua-ativa.png" alt="car1">
+                <h3>Perodua Ativa</h3>
+                <p>Popular among young people who do business</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/toyota-vios.png" alt="car1">
+                <h3>Toyota Vios</h3>
+                <p>Popular subcompact sedan known for its reliability, fuel efficiency, and affordability</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/toyota-hilux.png" alt="car1">
+                <h3>Toyota Hilux</h3>
+                <p>Rugged and reliable pickup truck that is known for its off-road capability and durability</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/porsche911.jpg" alt="car1">
+                <h3>Porsche 911</h3>
+                <p>Iconic sports car that is known for its performance and handling</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/mercbenz-eqs.png" alt="car1">
+                <h3>Mercedes-Benz EQS</h3>
+                <p>All-electric luxury sedan that offers a luxurious and comfortable ride</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/mercbenz-a180-1.png" alt="car1">
+                <h3>Mercedes-Benz A180</h3>
+                <p>Entry-level luxury car that is known for its style and performance</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/kia-carnival.png" alt="car1">
+                <h3>Kia Carnival</h3>
+                <p>Minivan that is known for its spaciousness and versatility</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/nissan-altima.png" alt="car1">
+                <h3>Nissan Altima 2024</h3>
+                <p>Midsize sedan that is known for its value and fuel efficiency</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/perodua-bezza1.png" alt="car1">
+                <h3>Perodua Bezza</h3>
+                <p>Entry-level sedan that is known for its affordability and fuel efficiency</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/mazda-cx90.png" alt="car1">
+                <h3>Mazda CX90 2024</h3>
+                <p>Three-row SUV that is known for its sporty handling and luxurious interior</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/honda-civic-typeR2023-1.png" alt="car1">
+                <h3>Honda Civic Type R 2023</h3>
+                <p>High-performance version of the Civic that is known for its speed and agility</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/kia-sportage.png" alt="car1">
+                <h3>Kia Sportage</h3>
+                <p>Compact SUV that is known for its stylish design and spacious interior</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/porsche-cross-turismo.png" alt="car1">
+                <h3>Porsche Taycan Cross Turismo</h3>
+                <p>All-electric SUV that offers a luxurious and comfortable ride</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/honda-jazz-1.png" alt="car1">
+                <h3>Honda Jazz</h3>
+                <p>Subcompact hatchback that is known for its fuel efficiency and spacious interior</p>
+            </div>
+            <div class="flex-carcard">
+                <img src="img/car-listings/lexus-500h-1.png" alt="car1">
+                <h3>Lexus 500H</h3>
+                <p>Luxury SUV that offers a powerful and efficient hybrid powertrain</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="paging">
+    <nav class="pagination is-centered " role="navigation" aria-label="pagination">
+        <ul class="pagination-list align-midpage">
+            <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+            <li><a class="pagination-link" aria-label="Goto page 45">2</a></li>
+            <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">3</a></li>
+            <li><a class="pagination-link" aria-label="Goto page 47">4</a></li>
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            <li><a class="pagination-link" aria-label="Goto page 86">47</a></li>
+        </ul>
+    </nav>
+</section>
+<footer class="footer-main">
+    <div class="container__footer">
+        <div class="footer-item1">
+            <div class="footer-categoryitem">
+                <h3>ABOUT US</h3>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="#background.html">Background</a>
+            <a href="#cars.html">Cars</a>
+            <a href="#team.html">Team</a>
+        </div>
+        <div class="footer-item2">
+            <div class="footer-categoryitem">
+                <h3>COMPANY</h3>
+            </div>
+            <a href="#values.html">Values</a>
+            <a href="#career.html">Work With Us</a>
+            <a href="blog.html">Blog</a>
+            <a href="#contact.html">Contact</a>
+        </div>
+        <div class="footer-item3">
+            <div class="footer-categoryitem">
+                <h3>SUPPORT</h3>
+            </div>
+            <a href="support.html">Support center</a>
+            <a href="#feedback.html">Feedback and Suggestion</a>
+        </div>
+        <div class="footer-item4">
+            <div class="footer-categoryitem">
+                <h3>NEWSLETTER</h3>
+            </div>
+            <label for="emailinput">
+                <input type="text" placeholder="Write your email" class="input-email"></input>
+            </label>
+            <button type="submit" class="subscribe-button">Subscibe</button>
+        </div>
+    </div>
+    <div class="copyright-author"><a href="https://www.linkedin.com/in/zafrantajudin" target="_blank"><p>@ranngrafik</p></a></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 208, 208);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffe1e1;
+  }
+
+body{
+    --main-font-family: 'Gabarito', sans-serif;
+    font-family: 'Gabarito', sans-serif, normal;
+}
+
+.logotitle{
+    display: flex;
+    justify-content: flex-start;
+}
+.logotitle img{
+    width: 30px;
+    margin-right: 20px;
+}
+.support-nav{
+    background-color: rgb(21, 21, 21);
+    margin: 0;
+}
+.support-nav h3{
+    color: white;
+}
+
+.to-mainpage{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.searchntext-head__container{
+    display: flex;
+}
+.search-bar__items{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.text-nav{
+    display: flex;
+    padding: 10px 0;
+}
+.text-nav h3{
+    margin:0 30px;
+}
+
+.search-bar__items{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    /* margin: 20px 0; */
+}
+.search-bar__items button{
+    border-width: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.search-bar__items input{
+    color: black;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.search-bar__items img{
+    width: 30px;
+}
+.container__headline{
+    max-width: 100%;
+    height: 1000px;
+    margin-bottom: 20px;
+}
+.container__headline img{
+    width: 100%;
+}
+.container__headline h1, .container__headline h4 {
+    position: relative;
+    top: -66vh;
+    text-align: center;
+}
+.container__headline h1{
+    font-size: 48px;
+    color: rgb(4, 255, 255);
+}
+.container__headline h4{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+.container__headline button {
+    position: relative;
+    top: -65vh;
+    left: 46vw;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: antiquewhite;
+    border-width: 0;
+    border-radius: 10px;
+}
+.background-text__headline{
+    position: absolute;
+    top: 79vh;
+    padding: 51px 734px;
+    background-color: rgba(53, 39, 39, 0.507)
+}
+.container__highlight{
+    max-width: 100%;
+    height: 640px;
+    margin-bottom: 20px;
+}
+.container__highlight img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.outercontainer__article{
+    height: 100%;
+    margin-bottom: 60px;
+}
+.container__article {
+    display: grid;
+    grid-template-columns: 990px 10px 1fr;
+}
+.maincategory-article{
+    margin-bottom: 10px;
+    border-bottom: 2px outset #352626;
+}
+.container__articlelist {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+.container__articlelist img{
+    width: 100%;
+}
+.vl {
+    border-left: 3px solid rgba(128, 128, 128, 0.347);
+    height: 500px;
+}
+.container__h-articlelist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+.highlight-article{
+    margin: auto;
+    width: 80%;
+}
+.highlight-article img{
+    width: 100%;
+}
+
+
+footer{
+    font-weight: 700;
+    background-color: #352626;
+    height: 340px;
+}
+
+.container__footer{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    padding: 40px 50px;
+    padding-bottom: 10px;
+}
+
+.footer-item1, .footer-item2, .footer-item3, .footer-item4 {
+    display: flex;
+    flex-direction: column;
+    height: 238px;
+    margin: auto;
+}
+
+.footer-item1 h3, .footer-item2 h3, .footer-item3 h3, .footer-item4 h3 {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+.footer-item1 a, .footer-item2 a, .footer-item3 a, .footer-item4 p {
+    color: whitesmoke;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-item4{
+    width: 300px;
+}
+.copyright-author p{
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+}
